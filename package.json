@@ -1,0 +1,21 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "A repo focused on practicing algorithm and data structure problems",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^25.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest src/linkedList/singly/findNode/problem.test.js",
+    "test-all": "jest src/linkedList/singly"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sfahadh/algorithms.git"
+  },
+  "keywords": ["algorithms", "data structure", "linked list", "graph", "binary tree", "nary tree"],
+  "author": "Fahad Hussain",
+  "license": "ISC"
+}
