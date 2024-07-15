@@ -14,7 +14,7 @@ test("Return a linked list with node of data 52 in index position 1", () => {
     outputList.insert(new Node(4));
     outputList.insert(new Node(5));
 
-    expect(InsertAt(inputList, node, 1)).toEqual(outputList);
+    expect(InsertAt(inputList.head, node, 1)).toEqual(outputList.head);
 })
 
 // Test Case 2:
@@ -26,19 +26,19 @@ test("Return a linked list with node of data 3 in index position 0", () => {
     outputList.insert(node);
     generate.addNodesToLinkedList(outputList, 10, 13);
 
-    expect(InsertAt(inputList, node, 0)).toEqual(outputList);
+    expect(InsertAt(inputList.head, node, 0)).toEqual(outputList.head);
 })
 
 // Test Case 3:
 test("Return original linked list - Part 1", () => {
-    const list = generate.generateLinkedList(3, 8);
-    expect(InsertAt(list, new Node(5), 12)).toEqual(list);
+    const inputList = generate.generateLinkedList(3, 8);
+    expect(InsertAt(inputList.head, new Node(5), 12)).toEqual(inputList.head);
 })
 
 // Test Case 4:
 test("Return original linked list - Part 2", () => {
-    const list = generate.generateLinkedList(12, 17);
-    expect(InsertAt(list, new Node(5), 2)).toEqual(list);
+    const inputList = generate.generateLinkedList(12, 17);
+    expect(InsertAt(inputList.head, new Node(5), 2)).toEqual(inputList.head);
 })
 
 // Test Case 5:
@@ -51,13 +51,13 @@ test("Return a linked list with node of data 3 in index position 3", () => {
     outputList.insert(node);
     generate.addNodesToLinkedList(outputList, 9, 15);
 
-    expect(InsertAt(inputList, node, 3)).toEqual(outputList);
+    expect(InsertAt(inputList.head, node, 3)).toEqual(outputList.head);
 })
 
 // Test Case 6:
 test("Return original linked list - Part 3", () => {
-    const list = generate.generateLinkedList(4, 5);
-    expect(InsertAt(list, new Node(3), 3)).toEqual(list);
+    const inputList = generate.generateLinkedList(4, 5);
+    expect(InsertAt(inputList.head, new Node(3), 3)).toEqual(inputList.head);
 })
 
 // Test Case 7:
@@ -70,11 +70,11 @@ test("Return a linked list with node of data 9999 in index position 1", () => {
     outputList.insert(node);
     generate.addNodesToLinkedList(outputList, 44, 50);
 
-    expect(InsertAt(inputList, node, 1)).toEqual(outputList);
+    expect(InsertAt(inputList.head, node, 1)).toEqual(outputList.head);
 })
 
 // Test Case 8:
-test("Return a linked list with node of data 42 in index position 10", () => {
+test("Return a linked list with node of data 42 in index position 4", () => {
     const inputList = generate.generateLinkedList(21, 23);
     const outputList = new LinkedList();
 
@@ -82,11 +82,11 @@ test("Return a linked list with node of data 42 in index position 10", () => {
     generate.addNodesToLinkedList(outputList, 21, 23);
     outputList.insert(node);
 
-    expect(InsertAt(inputList, node, 2)).toEqual(outputList);
+    expect(InsertAt(inputList.head, node, 4)).toEqual(outputList.head);
 })
 
 // Test Case 9:
 test("Return original linked list - Part 4", () => {
-    const list = generate.generateLinkedList(1, 4);
-    expect(InsertAt(list, new Node(14), 5)).toEqual(list);
+    const inputList = generate.generateLinkedList(1, 4);
+    expect(InsertAt(inputList.head, new Node(14), 5)).toEqual(inputList.head);
 })

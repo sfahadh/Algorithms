@@ -20,7 +20,7 @@ function Node(data, next = null) {
 */
 
 
-const getAllNodes = linkedList => {
+const getAllNodes = head => {
 
 }
 

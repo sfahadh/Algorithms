@@ -1,6 +1,6 @@
-const constructTree = require("../../Starter/ConstructTree");
+const constructTree = require("../../starter/construct");
 const sumLeftLeaves = require("./problem");
-const Structure = require("../../Starter/Structures");
+const Structure = require("../../starter/structures");
 
 // Test Case 1: //* Sample Input: refer to Images -> BST-structure-1.png
 test("The sum of all left leaves should return 49", () => {

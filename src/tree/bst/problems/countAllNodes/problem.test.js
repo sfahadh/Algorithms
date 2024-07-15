@@ -1,6 +1,6 @@
-const constructTree = require("../../Starter/ConstructTree");
+const constructTree = require("../../starter/construct");
 const countNodes = require("./problem");
-const Structures = require("../../Starter/Structures");
+const Structures = require("../../starter/structures");
 
 // Test Case 1: //* Sample Input: refer to Images -> BST-structure-1.png
 test("Return 6 for number of nodes in 1st BST structure", () => {

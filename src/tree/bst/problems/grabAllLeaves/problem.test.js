@@ -1,6 +1,6 @@
-const constructTree = require("../../Starter/ConstructTree");
+const constructTree = require("../../starter/construct");
 const grabAllLeaves = require("./problem");
-const Structures = require("../../Starter/Structures");
+const Structures = require("../../starter/structures");
 
 // Test Case 1: //* Sample Input: refer to Images -> BST-structure-1.png
 test("Return an array of [17, 32, 39] leaf nodes", () => {

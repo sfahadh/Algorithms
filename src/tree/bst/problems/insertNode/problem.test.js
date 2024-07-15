@@ -1,6 +1,6 @@
-const constructTree = require("../../Starter/ConstructTree");
-const BST = require("../../Starter/BST");
-const Node = require("../../Starter/Node");
+const constructTree = require("../../starter/construct");
+const BST = require("../../starter/bst");
+const Node = require("../../starter/node");
 const insertNode = require("./problem");
 
 // Test Case 1:

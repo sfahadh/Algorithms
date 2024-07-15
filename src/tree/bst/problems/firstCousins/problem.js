@@ -6,7 +6,7 @@
  */
 
 /*
-TODO: Complete the following BST first cousins problem below. There are 3 inputs, the root, 
+TODO: Complete the following BST are cousins problem below. There are 3 inputs, the root, 
 TODO: and the 2 nodes that may or many not be located in the BST. If however, the 2 nodes are 
 TODO: located within the BST, then the goal is to check whether the 2 nodes are cousins or not. 
 TODO: If the 2 nodes are cousins, return true, otherwise return false. Cousins are identified 
@@ -23,11 +23,11 @@ function Node(data) {
     this.right = null;
 }
 */
-const firstCousins = (root, n1, n2) => {
+const areCousins = (root, n1, n2) => {
 
 }
 
-module.exports = firstCousins;
+module.exports = areCousins;
 
 /*
 * Sample Tree Root:

@@ -12,7 +12,7 @@ test("Return a linked list with new node of data 3 as the head", () => {
     outputList.insert(headNode);
     generate.addNodesToLinkedList(outputList, 1, 2);
 
-    expect(InsertHead(inputList, headNode)).toEqual(outputList);
+    expect(InsertHead(inputList.head, headNode)).toEqual(outputList.head);
 })
 
 // Test Case 2:
@@ -22,7 +22,7 @@ test("Return a linked list with new node of data 1 as the head", () => {
     const headNode = new Node(1);
     outputList.insert(headNode);
 
-    expect(InsertHead(new LinkedList(), headNode)).toEqual(outputList);
+    expect(InsertHead(new LinkedList().head, headNode)).toEqual(outputList.head);
 })
 
 // Test Case 3:
@@ -34,7 +34,7 @@ test("Return a linked list with new node of data 8 as the head", () => {
     outputList.insert(headNode);
     generate.addNodesToLinkedList(outputList, 1, 7);
 
-    expect(InsertHead(inputList, headNode)).toEqual(outputList);
+    expect(InsertHead(inputList.head, headNode)).toEqual(outputList.head);
 })
 
 // Test Case 4:
@@ -46,7 +46,7 @@ test("Return a linked list with new node of data 1005 as the head", () => {
     outputList.insert(headNode);
     generate.addNodesToLinkedList(outputList, 432, 1002);
 
-    expect(InsertHead(inputList, headNode)).toEqual(outputList);
+    expect(InsertHead(inputList.head, headNode)).toEqual(outputList.head);
 })
 
 // Test Case 5:
@@ -58,5 +58,5 @@ test("Return a linked list with new node of data 15 as the head", () => {
     outputList.insert(headNode);
     generate.addNodesToLinkedList(outputList, 14, 14);
 
-    expect(InsertHead(inputList, headNode)).toEqual(outputList);
+    expect(InsertHead(inputList.head, headNode)).toEqual(outputList.head);
 })

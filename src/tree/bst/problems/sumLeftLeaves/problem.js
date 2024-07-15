@@ -1,8 +1,8 @@
 // ? In Visual Studo Code, install "Better Comments" to see colorful effects of comments
 
 /* // Uncomment the imports below if you plan on using them
- * const BST = require("../../Starter/BST");
- * const Node = require("../../Starter/Node");
+ * const BST = require("../../starter/bst");
+ * const Node = require("../../starter/node");
  */
 
 /*
@@ -24,7 +24,7 @@ function Node(data) {
 
 const sumLeftLeaves = root => {
 
-};
+}
 
 module.exports = sumLeftLeaves;
 

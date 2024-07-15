@@ -21,8 +21,8 @@ function Node(data) {
 }
 */
 
-const findMax = (root) => {
-
+const findMax = root => {
+ 
 }
 
 module.exports = findMax;

@@ -1,6 +1,6 @@
-const constructTree = require("../../Starter/ConstructTree");
+const constructTree = require("../../starter/construct");
 const findMax = require("./problem");
-const Structures = require("../../Starter/Structures");
+const Structures = require("../../starter/structures");
 
 // Test Case 1: //* Sample Input: refer to Images -> BST-structure-1.png
 test("Highest node value in tree is 39", () => {
@@ -81,8 +81,8 @@ test("Highest node value in tree is 167", () => {
 });
 
 // Test Case 14:
-test("There is no tree, should return null", () => {
-	expect(findMax(null)).toEqual(null);
+test("There is no tree, should return 0", () => {
+	expect(findMax(null)).toEqual(0);
 });
 
 // Test Case 15:

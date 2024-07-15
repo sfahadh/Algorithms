@@ -22,7 +22,7 @@ function Node(data) {
 }
 */
 
-const twoSum = (root, sum, hashmap = {}) => {
+const twoSum = (root, sum, set = new Set()) => {
 
 }
 

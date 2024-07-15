@@ -22,7 +22,7 @@ function Node(data) {
 }
 */
 
-const postOrder = root => {
+const postOrder = (root) => {
 
 }
 

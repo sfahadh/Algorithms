@@ -20,8 +20,8 @@ function Node(data, next = null) {
 }
 */
 
-const firstHalf = linkedList => {
-
+const firstHalf = head => {
+  
 }
 
 module.exports = firstHalf;

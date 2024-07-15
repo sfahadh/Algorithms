@@ -31,4 +31,4 @@ module.exports = sumAllNodes;
 ! Test Case:
 * Sample Input: refer to Images -> BST-structure-7.png
 * Sample Output: (6 + 4 + 8 + 3 + 5 + 7 + 9) = 42
-*/s
+*/

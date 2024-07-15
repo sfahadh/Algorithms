@@ -21,7 +21,7 @@ function Node(data) {
 }
 */
 
-const findHeight = (root, node, sum = 0) => {
+const findHeight = (root, node) => {
 
 }
 

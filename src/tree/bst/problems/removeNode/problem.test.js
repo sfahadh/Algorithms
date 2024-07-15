@@ -1,4 +1,4 @@
-const constructTree = require("../../Starter/ConstructTree");
+const constructTree = require("../../starter/construct");
 const removeNode = require("./problem");
 
 // Test Case 1:
@@ -23,8 +23,8 @@ test("return tree without node 1", () => {
 });
 /*
 
-	        7                       7
-	     /	 \             	     /   \
+	       7                      7
+	     /	 \             	    /   \
      5     13        =>      5     13
    /  \   /  \             /  \   /  \  
   2    6 9   15           2   6  9   15

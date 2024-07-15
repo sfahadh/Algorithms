@@ -1,4 +1,4 @@
-const BST = require("./BST");
+const BST = require("./bst");
 
 const constructTree = nodes => {
     const tree = new BST();

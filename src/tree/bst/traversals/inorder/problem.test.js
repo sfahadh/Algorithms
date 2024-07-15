@@ -1,6 +1,6 @@
-const constructTree = require("../../Starter/ConstructTree");
+const constructTree = require("../../starter/construct");
 const inOrder = require("./problem");
-const Structures = require("../../Starter/Structures");
+const Structures = require("../../starter/structures");
 
 // Test Case 1: //* Sample Image: refer to Images -> BST-structure-1.png
 test("Return an array of values - [17, 24, 31, 32, 34, 39]", () => {

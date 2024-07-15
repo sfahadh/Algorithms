@@ -1,4 +1,4 @@
-const constructTree = require("../../Starter/ConstructTree");
+const constructTree = require("../../starter/construct");
 const removeAllLeaves = require("./problem");
 
 // Test Case 1:

@@ -1,6 +1,6 @@
-const constructTree = require("../../Starter/ConstructTree");
+const constructTree = require("../../starter/construct");
 const twoSum = require("./problem");
-const Strucutres = require("../../Starter/Structures");
+const Strucutres = require("../../starter/structures");
 
 // Test Case 1: //* Sample Input: refer to Images -> BST-structure-1.png
 test("Return true because nodes 24 & 32 adds up to 56", () => {

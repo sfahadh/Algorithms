@@ -1,6 +1,6 @@
-const constructTree = require("../../Starter/ConstructTree");
+const constructTree = require("../../starter/construct");
 const contains = require("./problem");
-const Structures = require("../../Starter/Structures");
+const Structures = require("../../starter/structures");
 
 // Test Case 1: //* Sample Image: refer to Images -> BST-structure-1.png
 test("Node is located in the root of the BST - Part I", () => {

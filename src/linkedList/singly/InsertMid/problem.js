@@ -20,7 +20,7 @@ function Node(data, next = null) {
 }
 */
 
-const insertMid = (linkedList, node) => {
+const insertMid = (head, node) => {
 
 }
 
@@ -30,7 +30,7 @@ module.exports = insertMid;
 ! Test Case 1:
 Linked List = { 3 => { 4 => { 5 => null } } }
 Input: { 6 => null }
-Expected Output: { 3 => { 6 => { 4 => { 5 => null } } } }
+Expected Output: { 3 => { 4 => { 6 => { 5 => null } } } }
 
 ! Test Case 2:
 Linked List = { 3 => { 4 => { 5 => { 6 => null } } } }
@@ -38,6 +38,4 @@ Input: { 7 => null }
 Expected Output: { 3 => { 4 => { 7 => { 5 => { 6 => null } } } } }
 */
 
-/*
-    ? You can assume that the linked list will always have at LEAST 2 nodes.
-*/
+//? You can assume that the linked list will always have at LEAST 2 nodes.

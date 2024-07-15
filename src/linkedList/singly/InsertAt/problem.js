@@ -21,7 +21,7 @@ function Node(data, next = null) {
 */
 
 
-const insertAt = (linkedList, node, index) => {
+const insertAt = (head, node, index) => {
 
 }
 
@@ -39,6 +39,4 @@ Input: { 2 => null }, 5
 Expected Output: { 3 => { 4 => { 5 => null } } } 
 */
 
-/*
-    ? If index is greater than the size of the linked list, return original linked list
-*/
+//? If index is greater than the size of the linked list, return original linked list

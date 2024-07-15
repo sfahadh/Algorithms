@@ -1,6 +1,6 @@
-const constructTree = require("../../Starter/ConstructTree");
+const constructTree = require("../../starter/construct");
 const dualParent = require("./problem");
-const Strucutres = require("../../Starter/Structures");
+const Strucutres = require("../../starter/structures");
 
 // Test Case 1: //* Sample Input: refer to Images -> BST-structure-1.png
 test("There are 2 parents, nodes 24 & 34 with a left and right child", () => {

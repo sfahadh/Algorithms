@@ -8,7 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "jest src/linkedList/singly/findNode/problem.test.js",
+    "test": "jest src/tree/bst/problems/firstCousins/problem.test.js",
     "test-all": "jest src/linkedList/singly"
   },
   "repository": {

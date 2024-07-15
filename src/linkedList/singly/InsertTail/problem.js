@@ -20,7 +20,7 @@ function Node(data, next = null) {
 }
 */
 
-const insertTail = (linkedList, node) => {
+const insertTail = (head, node) => {
 
 }
 

@@ -21,7 +21,7 @@ function Node(data, next = null) {
 */
 
 
-const insertHead = (linkedList, node) => {
+const insertHead = (head, node) => {
     
 }
 
