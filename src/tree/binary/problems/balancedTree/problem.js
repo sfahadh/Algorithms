@@ -31,7 +31,5 @@ module.exports = balanced;
 /*
 ! Test Case:
 * Sample Input: refer to Images -> BT-structure-8.png
-* Sample Output: true
+* Sample Output: false
 */
-
-// ? If the average ends up being a decimal, floor the value;

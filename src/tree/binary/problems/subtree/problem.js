@@ -23,7 +23,7 @@ function Node(data) {
 
 const subtree = (root, sub) => {
 
-};
+}
 
 module.exports = subtree;
 

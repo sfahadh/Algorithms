@@ -1,3 +1,4 @@
+//? Solution #1
 const isUnivalued = root => {
     if (!root) return true;
     const data = root.data;

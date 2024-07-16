@@ -1,4 +1,5 @@
-const symmetric = root => {
+//? Solution #1
+const solutionOne = root => {
     if (!root) return true;
     return traverse(root.left, root.right)
 };

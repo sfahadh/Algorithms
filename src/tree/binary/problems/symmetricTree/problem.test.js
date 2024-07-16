@@ -1,6 +1,6 @@
-const BinaryTree = require("../../Starter/BinaryTree");
-const structures = require("../../Starter/Structures");
-const constructTree = require("../../Starter/constructTree");
+const BinaryTree = require("../../starter/BinaryTree");
+const structures = require("../../starter/structures");
+const constructTree = require("../../starter/construct");
 const symmetric = require("./problem");
 
 // Test Case 1: //* Sample Output: refer to Images -> BT-structure-1.png

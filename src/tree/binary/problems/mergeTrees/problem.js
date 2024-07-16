@@ -1,5 +1,7 @@
 // ? In Visual Studo Code, install "Better Comments" to see colorful effects of comments
 
+const BinaryTree = require("../../starter/BinaryTree");
+
 /* // Uncomment the imports below if you plan on using them
  * const BinaryTree = require("../../Starter/BinaryTree");
  * const Node = require("../../Starter/Node");

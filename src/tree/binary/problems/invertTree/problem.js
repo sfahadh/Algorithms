@@ -22,7 +22,7 @@ function Node(data) {
 
 const invertTree = root => {
 
-};
+};  
 
 module.exports = invertTree;
 

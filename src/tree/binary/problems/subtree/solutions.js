@@ -1,3 +1,4 @@
+//? Solution #1
 const subtree = (root, sub) => {
     if (!root || !sub) return false;
     return compareTree(root, sub) || subtree(root.left, sub) || subtree(root.right, sub);
