@@ -1,6 +1,6 @@
-const LinkedList = require("../../Starter/Singly/linkedList");
-const Node = require("../../Starter/Singly/node");
-const generate = require("../../Starter/Singly/generate");
+const LinkedList = require("../../starter/singly/linkedList");
+const Node = require("../../starter/singly/node");
+const generate = require("../../starter/singly/generate");
 const InsertHead = require("./problem");
 
 // Test Case 1:

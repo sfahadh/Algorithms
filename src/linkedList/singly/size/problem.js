@@ -20,8 +20,15 @@ function Node(data, next = null) {
 */
 
 
-const size = linkedList => {
-    
+const size = head => {
+    let size = 0
+
+    while (head) {
+        size++
+        head = head.next
+    }
+
+    return size
 }
 
 module.exports = size;

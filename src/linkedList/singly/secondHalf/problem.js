@@ -20,7 +20,7 @@ function Node(data, next = null) {
 }
 */
 
-const secondHalf = linkedList => {
+const secondHalf = head => {
 
 }
 

@@ -21,8 +21,8 @@ function Node(data, next = null) {
 */
 
 
-const removeAt = (linkedList, index) => {
-
+const removeAt = (head, index) => {
+ 
 }
 
 module.exports = removeAt;

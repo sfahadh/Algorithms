@@ -1,4 +1,4 @@
-const generate = require("../../Starter/Singly/generate");
+const generate = require("../../starter/singly/generate");
 const GetAllNodes = require("./problem");
 
 // Test Case 1:

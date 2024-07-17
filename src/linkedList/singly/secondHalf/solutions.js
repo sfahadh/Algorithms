@@ -1,6 +1,7 @@
-const secondHalf = linkedList => {
-    let slow = linkedList.head;
-    let fast = linkedList.head;
+//? Solution #1
+const solutionOne = head => {
+    let slow = head;
+    let fast = head;
 
     while (fast && fast.next) {
         slow = slow.next;

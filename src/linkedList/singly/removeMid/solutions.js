@@ -1,7 +1,8 @@
-const removeMid = linkedList => {
+//? Solution #1
+const removeMid = head => {
     const mid = Math.floor(linkedListLength(linkedList) / 2);
     let count = 0;
-    let curr = linkedList.head;
+    let curr = head;
     let prev = curr;
 
     while (curr) {
@@ -19,9 +20,9 @@ const removeMid = linkedList => {
     return linkedList;
 }
 
-const linkedListLength = linkedList => {
+const linkedListLength = head => {
     let count = 0;
-    let curr = linkedList.head;
+    let curr = head;
 
     while (curr) {
         count++;

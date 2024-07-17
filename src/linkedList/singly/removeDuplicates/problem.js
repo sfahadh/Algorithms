@@ -21,7 +21,7 @@ function Node(data, next = null) {
 */
 
 
-const removeDuplicates = linkedList => {
+const removeDuplicates = head => {
 
 }
 

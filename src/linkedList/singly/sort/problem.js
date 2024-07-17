@@ -1,4 +1,6 @@
 // ? In Visual Studo Code, install "Better Comments" to see colorful effects of comments
+const LinkedList = require("../../starter/singly/linkedList");
+const Node = require("../../starter/singly/node");
 
 /* // Uncomment the imports below if you plan on using them
 * const LinkedList = require("../../Starter/Singly/linkedList");
@@ -19,7 +21,7 @@ function Node(data, next = null) {
 }
 */
 
-const sort = linkedList => {
+const sort = head => {
 
 }
 

@@ -20,7 +20,7 @@ function Node(data, next = null) {
 */
 
 
-const removeTail = linkedList => {
+const removeTail = head => {
 
 }
 

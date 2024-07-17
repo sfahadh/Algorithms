@@ -1,6 +1,6 @@
-const LinkedList = require("../../Starter/Singly/linkedList");
-const Node = require("../../Starter/Singly/node");
-const generate = require("../../Starter/Singly/generate");
+const LinkedList = require("../../starter/singly/linkedList");
+const Node = require("../../starter/singly/node");
+const generate = require("../../starter/singly/generate");
 const RemoveMid = require("./problem");
 
 // Test Case 1:
@@ -11,7 +11,7 @@ test("Return a linked list with mid node of data 4 removed", () => {
     outputList.insert(new Node(3));
     outputList.insert(new Node(5));
 
-    expect(RemoveMid(inputList)).toEqual(outputList);
+    expect(RemoveMid(inputList.head)).toEqual(outputList.head);
 })
 
 // Test Case 2:
@@ -23,7 +23,7 @@ test("Return a linked list with mid node of data 6 removed", () => {
     outputList.insert(new Node(5));
     outputList.insert(new Node(7));
 
-    expect(RemoveMid(inputList)).toEqual(outputList);
+    expect(RemoveMid(inputList.head)).toEqual(outputList.head);
 })
 
 // Test Case 3:
@@ -34,7 +34,7 @@ test("Return a linked list with mid node of data 3 removed", () => {
     generate.addNodesToLinkedList(outputList, 1, 2);
     generate.addNodesToLinkedList(outputList, 4, 5);
 
-    expect(RemoveMid(inputList)).toEqual(outputList);
+    expect(RemoveMid(inputList.head)).toEqual(outputList.head);
 })
 
 // Test Case 4:
@@ -45,7 +45,7 @@ test("Return a linked list with mid node of data 10 removed", () => {
     generate.addNodesToLinkedList(outputList, 5, 9);
     generate.addNodesToLinkedList(outputList, 11, 15);
 
-    expect(RemoveMid(inputList)).toEqual(outputList);
+    expect(RemoveMid(inputList.head)).toEqual(outputList.head);
 })
 
 // Test Case 5:
@@ -56,5 +56,5 @@ test("Return a linked list with mid node of data 9999 removed", () => {
     generate.addNodesToLinkedList(outputList, 9990, 9998);
     generate.addNodesToLinkedList(outputList, 10000, 10008);
 
-    expect(RemoveMid(inputList)).toEqual(outputList);
+    expect(RemoveMid(inputList.head)).toEqual(outputList.head);
 })

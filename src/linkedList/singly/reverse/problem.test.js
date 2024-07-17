@@ -1,6 +1,6 @@
-const LinkedList = require("../../Starter/Singly/linkedList");
-const Node = require("../../Starter/Singly/node");
-const generate = require("../../Starter/Singly/generate");
+const LinkedList = require("../../starter/singly/linkedList");
+const Node = require("../../starter/singly/node");
+const generate = require("../../starter/singly/generate");
 const Reverse = require("./problem");
 
 // Test Case 1:
@@ -13,7 +13,7 @@ test("Return a linked list where nodes traverse from 6 to 3", () => {
     outputList.insert(new Node(4));
     outputList.insert(new Node(3));
 
-    expect(Reverse(inputList)).toEqual(outputList.head);
+    expect(Reverse(inputList.head)).toEqual(outputList.head);
 })
 
 // Test Case 2:
@@ -32,7 +32,7 @@ test("Return a linked list where nodes traverse from 41 to 32", () => {
     outputList.insert(new Node(33));
     outputList.insert(new Node(32));
 
-    expect(Reverse(inputList)).toEqual(outputList.head);
+    expect(Reverse(inputList.head)).toEqual(outputList.head);
 })
 
 // Test Case 3:
@@ -42,7 +42,7 @@ test("Return original linked list", () => {
 
     outputList.insert(new Node(1));
 
-    expect(Reverse(inputList)).toEqual(outputList.head);
+    expect(Reverse(inputList.head)).toEqual(outputList.head);
 })
 
 // Test Case 4:
@@ -53,7 +53,7 @@ test("Return a linked list where nodes traverse from 12 to 13", () => {
     outputList.insert(new Node(13));
     outputList.insert(new Node(12));
 
-    expect(Reverse(inputList)).toEqual(outputList.head);
+    expect(Reverse(inputList.head)).toEqual(outputList.head);
 })
 
 // Test Case 5:
@@ -68,5 +68,5 @@ test("Return a linked list where nodes traverse from 5 to 0", () => {
     outputList.insert(new Node(1));
     outputList.insert(new Node(0));
 
-    expect(Reverse(inputList)).toEqual(outputList.head);
+    expect(Reverse(inputList.head)).toEqual(outputList.head);
 })

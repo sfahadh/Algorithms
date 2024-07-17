@@ -21,7 +21,7 @@ function Node(data, next = null) {
 */
 
 
-const reverse = linkedList => {
+const reverse = head => {
 
 }
 
@@ -31,4 +31,12 @@ module.exports = reverse;
 ! Test Case:
 Linked List = { 3 => { 4 => { 5 => { 6 => null } } } }
 Expected Output: { 6 => { 5 => { 4 => { 3 => null } } } }
+
+
+recurse(3) => recurse(4) => recurse(5) => recurse(6) => null
+
+
+
+
+
 */

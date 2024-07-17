@@ -20,8 +20,8 @@ function Node(data, next = null) {
 */
 
 
-const removeHead = linkedList => {
-  
+const removeHead = head => {
+
 }
 
 module.exports = removeHead;
