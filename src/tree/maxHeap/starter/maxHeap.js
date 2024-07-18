@@ -1,33 +1,58 @@
 function MaxHeap() {
-    this.values = [];
+    this.store = [];
 }
 
 MaxHeap.prototype.insert = function (data) {
-    this.values.push(data);
+    this.store.push(data);
     this.bubbleUp();
 }
 
 MaxHeap.prototype.bubbleUp = function () {
-    let nodeIndex = this.values.length - 1;
-    const element = this.values[index];
-    let parentIndex;
-    let parent;
+    let childIdx = this.store.length - 1
+    let parentIdx
 
-    while (nodeIndex > 0) {
-        parentIndex = Math.floor((nodeIndex - 1) / 2);
-        parent = this.values[parentIndex];
-        if (element <= parent) break;
+    while (childIdx > 0) {
+        parentIdx = Math.floor((childIdx - 1) / 2)
 
-        this.values[parentIndex] = element;
-        this.values[nodeIndex] = parent;
-        nodeIndex = parentIndex;
+        if (this.store[childIdx] > this.store[parentIdx]) {
+            this.swap(parentIdx, childIdx)
+            childIdx = parentIdx
+        } else {
+            break
+        }
     }
 }
 
-const heap = new MaxHeap();
-[48, 12, 24, 7, 8, -5, 24, 391, 24, 56, 2, 6, 8, 41].forEach(node => {
-    heap.insert(node);
-})
-console.log(heap);
+MaxHeap.prototype.remove = function() {
+    if (this.store.length) {
+        this.swap(0, this.store.length - 1)
+        this.store.pop()
+        this.bubbleDown()
+    }
+}
+
+MaxHeap.prototype.bubbleDown = function() {
+    let parentIdx = 0
+
+    while (parentIdx < this.store.length) {
+        const leftChildIdx = (parentIdx * 2) + 1
+        const rightChildIdx = (parentIdx * 2) + 2
+
+        const leftChild = this.store[leftChildIdx]
+        const rightChild = this.store[rightChildIdx]
+        const childIdx = rightChild && rightChild > leftChild ? rightChildIdx : leftChildIdx
+
+        if (this.store[parentIdx] < this.store[childIdx]) {
+            this.swap(parentIdx, childIdx)
+            parentIdx = childIdx
+        } else {
+            break
+        }
+    }
+}
+
+MaxHeap.prototype.swap = function(i, j) {
+    [this.store[i], this.store[j]] = [this.store[j], this.store[i]]
+}
 
 module.exports = MaxHeap;
