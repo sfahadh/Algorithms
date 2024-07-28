@@ -1,13 +1,13 @@
 const postOrder = require("./problem");
-const NaryTree1 = require("../../Starter/Structures/N-aryTree1");
-const NaryTree2 = require("../../Starter/Structures/N-aryTree2");
-const NaryTree3 = require("../../Starter/Structures/N-aryTree3");
-const NaryTree4 = require("../../Starter/Structures/N-aryTree4");
-const NaryTree5 = require("../../Starter/Structures/N-aryTree5");
-const NaryTree6 = require("../../Starter/Structures/N-aryTree6");
-const NaryTree7 = require("../../Starter/Structures/N-aryTree7");
-const NaryTree8 = require("../../Starter/Structures/N-aryTree8");
-const NaryTree9 = require("../../Starter/Structures/N-aryTree9");
+const NaryTree1 = require("../../starter/structures/N-aryTree1");
+const NaryTree2 = require("../../starter/structures/N-aryTree2");
+const NaryTree3 = require("../../starter/structures/N-aryTree3");
+const NaryTree4 = require("../../starter/structures/N-aryTree4");
+const NaryTree5 = require("../../starter/structures/N-aryTree5");
+const NaryTree6 = require("../../starter/structures/N-aryTree6");
+const NaryTree7 = require("../../starter/structures/N-aryTree7");
+const NaryTree8 = require("../../starter/structures/N-aryTree8");
+const NaryTree9 = require("../../starter/structures/N-aryTree9");
 
 // Test Case 1: //* Sample Image: refer to Images -> Nary-structure-1.png
 test("Return an array of values - [51, 14]", () => {

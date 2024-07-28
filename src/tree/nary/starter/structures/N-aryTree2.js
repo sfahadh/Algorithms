@@ -1,4 +1,4 @@
-const NaryTree = require("../N-aryTree");
+const NaryTree = require("../naryTree");
 const InsertToNode = require("../insertToNode");
 
 const constructTree = () => {
