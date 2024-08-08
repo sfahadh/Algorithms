@@ -26,8 +26,9 @@ MaxHeap.prototype.bubbleUp = function () {
 MaxHeap.prototype.remove = function() {
     if (this.store.length) {
         this.swap(0, this.store.length - 1)
-        this.store.pop()
+        const node = this.store.pop()
         this.bubbleDown()
+        return node
     }
 }
 

@@ -1,10 +1,10 @@
-const Graph = require("../WeightedUndirectedGraph");
+const Graph = require("../index.js");
 const generateVertices = require("../../generateVertices");
 
 const vertices = [13, 17, 7, 20, 12, 19, 3];
 
 const constructGraph = () => {
-    const graph = new Graph;
+    const graph = new Graph();
     generateVertices(graph, vertices);
 
     graph.addEdge(13, 20, 7);
