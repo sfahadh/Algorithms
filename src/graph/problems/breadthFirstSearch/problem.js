@@ -26,7 +26,7 @@ module.exports = breadthFirstSearch;
     "D": ["B", "E", "F"],
     "E": ["C", "D", "F"],
     "F": ["D", "E"],
-}
+}, start = "A"
 * Sample Output: ["A", "B", "C", "D", "E", "F"]
 */
 

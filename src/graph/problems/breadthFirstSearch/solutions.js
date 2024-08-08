@@ -1,22 +1,22 @@
 const breadthFirstSearch = (adjacencyList, start) => {
-    if (!start) return [];
-    const queue = [start];
-    const result = [];
-    const visited = {};
-    visited[start] = true;
-    let currVertix;
+    if (!start) return []
+    const queue = [start]
+    const res = []
+    const visited = new Set()
 
     while (queue.length) {
-        currVertix = queue.shift();
-        result.push(currVertix);
+        const node = queue.shift()
+        if (visited.has(node)) continue
 
-        adjacencyList[currVertix].forEach(neighbor => {
-            if (!visited[neighbor]) {
-                visited[neighbor] = true;
-                queue.push(neighbor);
-            }
-        })
+        visited.add(node)
+        res.push(node)
+
+        if (adjacencyList[node]) {
+            adjacencyList[node].forEach((vertix) => {
+                queue.push(vertix)
+            })
+        }
     }
 
-    return result;
+    return res
 }

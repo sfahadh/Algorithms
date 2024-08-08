@@ -8,7 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "jest src/graph/problems/addVertix/problem.test.js",
+    "test": "jest src/graph/problems/breadthFirstSearch/problem.test.js",
     "test-all": "jest src/linkedList/singly"
   },
   "repository": {

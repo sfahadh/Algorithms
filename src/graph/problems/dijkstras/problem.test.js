@@ -1,5 +1,5 @@
-const Graph = require("../../../Starter/Undirected/WeightedGraph");
-const generateVertices = require("../../../Starter/Undirected/generateVertices");
+const Graph = require("../../starter/unweightedUndirected/index.js");
+const generateVertices = require("../../starter/generateVertices");
 const dijkstras = require("./problem");
 
 // Test Case 1:
